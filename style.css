@@ -1,0 +1,467 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Courier New', Courier, monospace; 
+  scroll-behavior: smooth;
+}
+
+.header{
+    height: 680px;
+    width: auto;
+    background-image: url(img/headerfon2.jpg);
+}
+
+.navigator{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid gray;
+    position: fixed; /* Фиксируем элемент */
+    top: 0;          /* Прикрепляем к верхней части экрана */
+    left: 0;
+    width: 100%;     /* Ширина на всю страницу */
+    z-index: 1000;   /* Указываем высокий z-index, чтобы он был поверх других элементов */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Лёгкая тень для отделения от контента */
+    transition: background-color 0.3s ease; /* Плавное появление фона */
+    background-color: transparent; /* Прозрачный фон */
+}
+
+.navigator.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Цвет фона при прокрутке */
+}
+
+.navigator2{
+    height: 25px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 69px;
+    padding-right: 15px;
+}
+
+.navigatorvords{
+    display: inline;
+    padding-right: 28px;
+    font-variant: small-caps;
+    font-weight: 500;
+    color: gray;
+    font-size: 16px;
+}
+
+.navigatorvords{
+    background: none;
+    border: none;
+	color: gray;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+
+.numberstyle{
+    font-variant: small-caps;
+    font-weight: 500;
+    color: #ffa500;
+    font-size: 16px;
+}
+
+.maininfo{
+    padding-top: 77px;
+    padding-left: 69px;
+    width: 593px;
+}
+
+.maininfo1{
+    font-size: 65px;
+    color: white;
+}
+
+.maininfo2{
+    font-size: 17px;
+    color: silver;
+}
+
+.maininfo2style{
+    margin-top: 32px;
+}
+
+.needhelp{
+    padding-top: 58px;
+}
+
+.needhelp1{
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+    padding-bottom: 24px;
+}
+
+.needhelpnumber{
+    font-size: 27px;
+}
+
+.need_help_phone_and_button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.call{
+    background: rgba(0, 0, 0, 0); /* прозрачность фона*/
+    border-color: #ffa500; /*цвет рамки*/ 
+    font-size: 22px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1px 20px;
+}
+
+.info_about_shtab1{
+    height: 137px;
+    width: 233px;
+    padding-left: 69px;
+    color: #1C1C1C;
+    display: inline-block;
+    padding-top: 35px;
+}
+
+.info_about_shtab{
+   width: 926px;
+}
+
+.small_gray{
+    display: inline;
+    font-weight: 700;
+    color: gray;
+    font-size: 19px;
+}
+
+.big_yellow{
+    color: #ffa500;
+    font-size: 46px
+}
+
+.small_gray_div{
+    margin-top: 20px;
+}
+
+.fixed{
+    display: flex;
+}
+
+.block2{
+    width: auto;
+    height: 590px;
+    background-color: #f3efef;
+    position: relative;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.fon_block2{
+    width: 376px;
+    height: 590px;
+    float: right; /*так можно сдвинуть картинку вправо*/
+}
+
+.photo_ekat_block2{
+    position: absolute;
+    height: 590px;
+    right: 135px;
+}
+
+.main_info_block2{
+    width: 967px;
+    height: 471px;
+    margin-left: 155px;
+    margin-top: 80px;
+}
+
+.main_text_block2{
+    width: 723px;
+    height: 471px;
+}
+
+.word_ruc_1{
+    color: #CFCFCF;
+    font-size: 22px;
+}
+
+.word_ruc_2{
+    color: black;
+    font-size: 30px;
+    padding-top: 25px;
+    font-weight: 600;
+}
+
+.word_ruc_3{
+    font-size: 23px;
+    color: gray;
+}
+
+.word_ruc_4{
+    font-weight: 1000;
+    font-size: 23px;
+    padding-top: 15px;
+}
+
+.word_ruc_5{
+    color: gray;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+span{
+    color: #ffa500;
+}
+
+.word_ruc2{
+    padding-top: 32px;
+}
+
+.name_ruc{
+    padding-top: 32px;
+}
+
+.block3{
+    height: 621px;
+}
+
+.flex_zagolovok_block3{
+    display: flex; 
+    justify-content: center;
+}
+
+.zagolovok_block3{
+    width: 582px;
+    height: 85px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.zagolovok_block_3{
+    color: gray;
+    font-size: 20px;
+}
+
+.podzagolovok_block_3{
+    padding-top: 32px;
+    font-size: 48px;
+}
+
+.flex_info_block3{
+    display: flex;
+    justify-content: center;
+}
+
+.main_info_block3{
+    display: flex;
+    justify-content: space-between;
+    width: 1496px;
+    padding-top: 78px;
+}
+
+.blocks_block3{
+    width: 356px;
+    height: 223px;
+    border: 2px solid #CFCFCF;
+}
+
+.main_info_block3_black{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    padding-top: 10px;
+    font-size: 19px;
+}
+
+.main_info_block3_gray{
+    color: gray;
+    padding-top: 20px;
+    font-size: 17px;
+    font-size: 900;
+    text-align: center;
+}
+
+.call1{
+    background: rgba(0, 0, 0, 0); /* прозрачность фона*/
+    border-color: #ffa500; /*цвет рамки*/ 
+    font-size: 22px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1px 20px;
+}
+
+.call1{
+    margin-top: 38px;
+    text-align: center;
+}
+
+.block4{
+    background-color: #f3efef;
+    width: auto;
+    height: 450px;
+    padding-top: 80px;
+}
+
+.main_info_block4{
+    height: 400px;
+    width: auto;
+    margin-left: 69px;
+    display: flex;
+}
+
+.main_text_block4{
+    width: 492px;
+    height: 344px;
+    margin-top: 28px;
+}
+
+.main_img_block4{
+    height: 400px;
+    width: 1222px;
+    margin-left: 135px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.word_ruc_2_block4{
+    color: black;
+    font-size: 50px;
+    padding-top: 15px;
+}
+
+.call2{
+    background: rgba(0, 0, 0, 0); /* прозрачность фона*/
+    border-color: #ffa500; /*цвет рамки*/ 
+    font-size: 22px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.main_info_block4_black{
+    color: black;
+    font-weight: 700;
+    padding-top: 10px;
+    font-size: 19px;
+}
+
+.main_info_block4_gray{
+    color: gray;
+    padding-top: 20px;
+    font-size: 17px;
+    font-size: 900;
+}
+
+.testimonial-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 600px; /* Увеличиваем ширину блока */
+    margin: 0 auto;
+  }
+  
+  .arrow {
+    background: none;
+    border: none;
+    font-size: 32px; /* Увеличиваем размер стрелок */
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+  }
+  
+  .left-arrow {
+    left: -40px;
+  }
+  
+  .right-arrow {
+    right: -40px;
+  }
+  
+  .testimonial-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .testimonial {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px; /* Добавляем отступы */
+  }
+  
+  .testimonial.active {
+    display: flex;
+  }
+  
+  .testimonial-photo {
+    width: 120px; /* Увеличиваем ширину фото */
+    height: 120px; /* Увеличиваем высоту фото */
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+    margin: 15px 0;
+    font-size: 18px; /* Увеличиваем размер текста */
+    max-width: 500px; /* Делаем текст шире */
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+    font-size: 20px; /* Увеличиваем размер имени */
+  }
+  
+.footer{
+    height: 500px;
+    background-color: #1C1C1C;
+    display: flex;
+}
+
+.footer_info{
+    margin-top: 50px;
+    margin-left: 150px;
+ }
+
+ a{
+    text-decoration: none;
+ }
+
+ .scroll-to-top {
+    position: fixed;            /* Фиксируем элемент на экране */
+    bottom: 20px;               /* Отступ от нижнего края */
+    right: 20px;                /* Отступ от правого края */
+    width: 40px;                /* Размер кнопки */
+    height: 40px;
+    background-color: #007bff;  /* Цвет фона кнопки */
+    color: #fff;                /* Цвет стрелки */
+    border-radius: 50%;         /* Делаем кнопку круглой */
+    text-align: center;         /* Выравниваем стрелку по центру */
+    line-height: 40px;          /* Центрируем стрелку по вертикали */
+    font-size: 24px;            /* Размер стрелки */
+    cursor: pointer;            /* Изменяем курсор на указатель */
+    z-index: 1000;              /* Поверх всех элементов */
+    display: none;              /* Скрываем кнопку по умолчанию */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Тень для красоты */
+}
+
+.scroll-to-top:hover {
+    background-color: #0056b3;  /* Изменение цвета при наведении */
+}
